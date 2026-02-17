@@ -21,9 +21,12 @@ Created as part of my Web3 developer journey.
 ```bash
 npm install
 npx hardhat test
+```
+## 📁 Project Structure
 contracts/
 scripts/
 test/
+## 🧪 Smart Contract
 contracts/Token.sol
 Includes:
 	•	token name & symbol
