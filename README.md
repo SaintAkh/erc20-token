@@ -1,13 +1,30 @@
-# ERC-20 Token
+# 🪙 ERC-20 Token
 
-Simple ERC-20 style token built with Solidity.
+A simple ERC-20 style token smart contract built with Solidity.  
+Created as part of my Web3 developer journey.
 
-## Features
+---
+
+## ✨ Features
+
 - Token creation
-- Transfer tokens
-- Basic balance tracking
-- ## 🚀 How to run
+- Basic transfer function
+- Balance tracking
+- Simple and readable Solidity logic
+
+---
+
+## 🚀 How to run
 
 ```bash
 npm install
 npx hardhat test
+contracts/
+scripts/
+test/
+contracts/Token.sol
+Includes:
+	•	token name & symbol
+	•	total supply
+	•	transfer function
+	•	balance mapping
